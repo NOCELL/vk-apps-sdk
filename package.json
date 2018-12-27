@@ -1,0 +1,36 @@
+{
+  "name": "vk-apps-sdk",
+  "version": "1.0.0",
+  "description": "SDK for VK Apps backend",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha --exit --timeout 10000 --no-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOCELL/vk-apps-sdk.git"
+  },
+  "keywords": [
+    "vk",
+    "apps",
+    "sdk",
+    "api",
+    "backend"
+  ],
+  "author": "Oleg Zuev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NOCELL/vk-apps-sdk/issues"
+  },
+  "prettier": {
+    "useTabs": true,
+    "printWidth": 100,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "parser": "flow",
+    "semi": false
+  },
+  "homepage": "https://github.com/NOCELL/vk-apps-sdk#readme"
+}
