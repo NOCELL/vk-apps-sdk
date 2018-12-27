@@ -32,5 +32,8 @@
     "parser": "flow",
     "semi": false
   },
-  "homepage": "https://github.com/NOCELL/vk-apps-sdk#readme"
+  "homepage": "https://github.com/NOCELL/vk-apps-sdk#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
