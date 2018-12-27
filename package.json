@@ -1,6 +1,6 @@
 {
   "name": "vk-apps-sdk",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "SDK for VK Apps backend",
   "main": "test.js",
   "scripts": {
