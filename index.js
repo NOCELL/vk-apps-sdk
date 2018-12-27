@@ -14,10 +14,10 @@ class VKApp {
 		const list_of_params = Object.entries(params) //перевод в обьекта параметро в список
 			.filter(e => e[0].startsWith('vk_')) //фильтрация параметров VK
 			.sort((a, b) => {
-				if (a.firstname < b.firstname) {
+				if (a[0] < b[0]) {
 					return -1
 				}
-				if (a.firstname > b.firstname) {
+				if (a[0] > b[0]) {
 					return 1
 				}
 				return 0
