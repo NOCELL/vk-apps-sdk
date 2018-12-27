@@ -16,7 +16,7 @@ const express = require('express')
 const app = express()
 
 const VKAppsSDK = require('vk-apps-sdk')
-const VKApp = new VKSDK({
+const VKApp = new VKAppsSDK({
     CLIENT_SECRET: 'okM7c8C1V7wbe3eCFqK7'
 })
 
