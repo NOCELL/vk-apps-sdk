@@ -2,7 +2,15 @@ const fs = require('fs')
 const crypto = require('crypto') //модуль для криптографии Nodejs
 const { stringify } = require('querystring') //методы для парсинга строки
 
-const PUBKEY = fs.readFileSync('./dmr.crt', 'utf8')
+const PUBKEY = `-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAukXD0MX64KKsWuiv2A4/
+IEaXknvze019wZtvxYOIgGFjeWGp26CMa627cKpQS8TOT9TJ9OgbWuI+MWTK2dfP
+yDzqfuPVHWbnBaM85O3tQ/Tv2mBwkvzP3z1gTZ+mYSuAfZG0H6vLG0GPDj2I79Zj
+QSXcLSNWoS+7XNcLgDE5RCdAF+VLlSir+e1n/JWRb3XtIyyrDMF3VzfJsX6DVhxW
+4FfhxqjX4JHiMhdDHHiuzMJ3zNaLOzS7ynaQ5OgCfp89ageNMgp1DbLpGbxlXlex
+m4/CSuoVEY6NPrpytVAOJhiE0rwtBZPsMTGzXtBXpxv2NyO2Qdh0kjhB+qa3mmln
+XwIDAQAB
+-----END PUBLIC KEY-----`
 
 class VKApp {
 	constructor({ CLIENT_SECRET, MERCHANT_KEY, MERCHANT_ID }) {
