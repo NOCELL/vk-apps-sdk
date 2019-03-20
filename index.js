@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require('fs') //модуль для ФС
 const crypto = require('crypto') //модуль для криптографии Nodejs
 const { stringify } = require('querystring') //методы для парсинга строки
 
